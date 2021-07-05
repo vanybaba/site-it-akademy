@@ -1,0 +1,359 @@
+.container_fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+}
+.navbar-nav li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    padding-right: 50px;
+    font-family: 'Noto Serif', serif;
+}
+.navbar-nav li a:hover{
+    color: #74BE4F;
+}
+.navbar-nav .active{
+    color: #74BE4F;
+}
+.dropdown-menu a{
+    line-height: 30px;
+    font-size: 15px;
+    text-transform: lowercase;
+}
+.load{
+    animation: slide 5s;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 95vh;
+    animation: slide 20s infinite;
+}
+.content{
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.principal p{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+@keyframes slide{
+    0%{
+        background-image: url("../images/i1.jpg");
+    }
+    40%{
+        background-image: url("../images/i2.jpg");
+    }
+    40.01%{
+        background-image: url("../images/i3.jpg");
+    }
+    80%{
+        background-image: url("../images/i4.jpg");
+    }
+    80.01%{
+        background-image: url("../images/i6.jpg");
+    }
+    100%{
+        background-image: url("../images/instructor.jpeg");
+    }
+    /* 60.01%{
+        background-image: url("../images/Bios.jpeg");
+    }
+    80%{
+        background-image: url("../images/chem.jpeg");
+    }
+    80.01%{
+        background-image: url("../images/franc.jpg");
+    }
+    100%{
+        background-image: url("../images/IMG-20200530-WA0012.jpg");
+    } */
+}
+/* .carousel-item{
+    height: 95vh;
+    background: no-repeat center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+} */
+/* .carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 90px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+} */
+/* .carousel-caption h1{
+    /* font-size:30px; */
+
+/* .carousel-caption p{
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+}
+.carousel-item h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 55px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    padding-top: 1000px;
+    font-weight: bold;
+} */
+/* .carousel-caption p{
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: center;
+    color: white;
+    font-family: 'Noto Serif', serif;
+} */
+.navbar-light .navbar-brand{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.carousel-item img{
+    -webkit-filter: brightness(0.5);
+}
+.finance{
+    display: flex;
+  justify-content: space-between;
+  background-color: #eaeeed;
+}
+.media-body{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.KTA{
+    margin-top: 160px;
+    background-color: white;
+ }
+ .KTA h2{
+     text-align: center;
+     font-family: 'Merriweather', serif;
+     font-weight: 700px;
+     text-decoration: underline;
+     text-decoration-color: #74BE4F;
+ 
+ }
+ .KTA p{
+     font-family: 'Crimson Text', serif;
+     font-size: medium;
+ }
+ .KTAdescr{
+     padding-top: 60px;
+     display: flex;
+     justify-content: center;
+ }
+ .KTAdescr img{
+     width: 400px;
+ }
+ .KTAdescr p{
+     text-align: center;
+     font-size: 20px;
+     padding-top: 50px;
+     padding-left: 20px;
+ }
+ .KTA button{
+     margin-left: 20px;
+     position: relative;
+     bottom: 100px;
+     margin-top: 0;
+ }
+ #findmore{
+     margin-left: 450px;
+ }
+ .instructor{
+    background: url("../images/instructor1.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-left: 0;
+    background-size: cover;
+}
+.instructor h1{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 120px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700px;
+    text-decoration: underline;
+    text-decoration-color: #74BE4F;
+}
+.instructor p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#myForm label{
+    font-family: 'Arimo', sans-serif;
+}
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 900px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    /* margin: 5px 0 22px 0; */
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, #apply:hover {
+    opacity: 1;
+  }
+  ::placeholder{
+    font-family: 'Crimson Text', serif;
+  }
+footer{
+    background-color: #dce4e2;
+}
+.footer-copyright{
+    background-color: #c5ccca;
+}
+
+@media only screen and (max-width: 900px) {
+    .media-body{
+        display: none;
+    }
+
+    .KTAdescr img{
+        display: none;
+    }
+    .slider{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 115vh;
+        animation: slide 10s infinite;
+    }
+    #findmore{
+        margin-top: 160px;
+        margin-left: auto;
+    }
+    .instructor{
+        background: url("../images/instructor1.jpg");
+        height: 1200px;
+        background-repeat: no-repeat;
+        margin-top: 200px;
+        margin-left: 0;
+        background-size: cover;
+        padding-top: 200px;
+    }
+    .instructor p{
+        font-family: 'Crimson Text', serif;
+        font-size: 25px;
+        text-align: center;
+        
+    }
+    .principal h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-family: 'Cormorant Garamond', serif;
+        padding-top: 80px;
+    }
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+    .media-body{
+        display: none;
+    }
+
+    .KTAdescr img{
+        display: none;
+    }
+    .slider{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 105vh;
+        animation: slide 10s infinite;
+    }
+    #findmore{
+        margin-top: 160px;
+        margin-left: auto;
+    }
+    .instructor{
+        background: url("../images/instructor1.jpg");
+        height: 1200px;
+        background-repeat: no-repeat;
+        margin-top: 200px;
+        margin-left: 0;
+        background-size: cover;
+        padding-top: 200px;
+    }
+    .instructor p{
+        font-family: 'Crimson Text', serif;
+        font-size: 25px;
+        text-align: center;
+        
+    }
+    .principal h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-family: 'Cormorant Garamond', serif;
+        padding-top: 80px;
+    }
+}
